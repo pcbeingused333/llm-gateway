@@ -1,5 +1,11 @@
 # manifest
 
+## 6.28.10
+
+### Patch Changes
+
+- 1c75318: Stop storing Google load-balancer headers (`Forwarded`, `Via`, trace context) in recorded request headers. `Forwarded` carries the caller's IP.
+
 ## 6.28.9
 
 ### Patch Changes
